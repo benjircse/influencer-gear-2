@@ -1,0 +1,180 @@
+ /*-----------body and font-style -------------*/
+ 
+ body {
+     font-family: 'Poppins', sans-serif;
+     background-color: #cfc9f1;
+ }
+ 
+ main {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ .container {
+     background-color: whitesmoke;
+     width: 1050px;
+ }
+ /*----------------body and font-style end-------------- */
+ /*------------- header-style----------- */
+ 
+ .manu-text {
+     font-size: 30px;
+     padding-left: 5px;
+     font-weight: bold;
+ }
+ 
+ nav {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .nav-ber {
+     width: 100%;
+     height: 50px;
+     padding-top: 20px;
+ }
+ 
+ nav a {
+     text-decoration: none;
+     color: rgb(15, 15, 15);
+     margin-right: 16px;
+     font-size: 1.5em;
+     padding-left: 10px;
+     text-transform: uppercase;
+     transition: all 1s;
+ }
+ 
+ nav a:hover {
+     background-color: gray;
+     border-radius: 10px;
+     color: black;
+ }
+ /*------------- header-style end----------- */
+ /* -----section-1-style------ */
+ 
+ .section-1 {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     padding-left: 5%;
+     padding-right: 5%;
+     padding-top: 5%;
+ }
+ 
+ .Influencer {
+     width: 90%;
+     margin-bottom: 180px;
+ }
+ 
+ .Start-text {
+     font-size: 23px;
+ }
+ 
+ .Influencer p {
+     font-size: 15px;
+     color: black;
+     font-weight: bold;
+     margin-bottom: 40px;
+ }
+ 
+ img {
+     width: 70%;
+ }
+ 
+ .button-s {
+     text-decoration: none;
+     padding: 10px 30px;
+     background-color: rgb(238, 6, 83);
+     color: honeydew;
+     border-radius: 20px;
+ }
+ 
+ .camera-img {
+     margin: 10px;
+     background-image: url(images/Circle\ design.svg);
+     background-size: 400px;
+     background-repeat: no-repeat;
+ }
+ 
+ img {
+     width: 70%;
+     margin-left: 30px;
+     margin-top: 50px;
+ }
+ /* -----section-1-style end------ */
+ 
+ hr {
+     border: 1px solid rgb(235, 235, 240);
+     width: 90%;
+ }
+ 
+ .company-logo {
+     display: flex;
+     justify-content: space-around;
+     background-color: hsla(0, 0%, 100%, 0.945);
+     border-radius: 20px;
+ }
+ 
+ .logo-style img {
+     width: 90px;
+     height: 30px;
+     padding-bottom: 20px;
+ }
+ /* -----------Collection-style-start---------- */
+ 
+ .section-style {
+     text-align: center;
+     padding-bottom: 10px;
+ }
+ 
+ .mani-Collection {
+     width: 270px;
+     height: 380px;
+     margin: 20px;
+     background-color: #FFFFFF;
+     box-shadow: 5px 5px 10px gray;
+     border-radius: 10px;
+ }
+ 
+ .mani-Collection:hover {
+     transform: scale(1.2);
+     transition: transform 2s;
+ }
+ 
+ .sub-container {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+ 
+ .images-sec img {
+     width: 260px;
+     height: 150px;
+     margin: 5px;
+ }
+ 
+ .text-box {
+     margin: 10px;
+     line-height: 15px;
+ }
+ 
+ .rating {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .rating i {
+     color: rgb(243, 124, 12);
+ }
+ 
+ .number {
+     margin-left: 10px;
+ }
+ 
+ .see-more {
+     border: none;
+     color: rgb(243, 23, 133);
+     width: 100%;
+     text-align: right;
+     padding-right: 55px;
+ }
+ /* -----------Collection-style-start end---------- */
